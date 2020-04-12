@@ -5,8 +5,8 @@ print("The first to reach 21 is the winner")
 print("Use your best strategy to reach the number 21")
 print("And also you can only move ahead upto 3 numbers forward")
 
-start = str(input("Do you want to start the game(Y/N): "))
-if start == "Y" or "y": #error here fix this make only available for any y or y
+start = str(input("Do you want to start the game(Y/N): ").lower())
+if start == "y":
 	print("Here you go")
 	def game(a):
 		
